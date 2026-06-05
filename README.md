@@ -6,3 +6,18 @@ Importa cosas de otros archivos o librerías.
 
 > import React, { useEffect, useState, useCallback } from 'react';
 
+# useState
+
+Permite guardar datos que cambian.
+
+# useEffect
+
+Permite ejecutar código cuando ocurre algo.
+
+Ejemplo:
+
+> useEffect(() => {
+    console.log("Hola");
+}, []);
+
+
