@@ -14,10 +14,52 @@ Permite guardar datos que cambian.
 
 Permite ejecutar código cuando ocurre algo.
 
-Ejemplo:
+# useCallBack
 
-> useEffect(() => {
-    console.log("Hola");
-}, []);
+Sirve para memorizar funciones
+
+# Link 
+
+Sirve para navegar
+
+# useNavigate
+
+Permite navegar desde JavaScript
+
+# Modal
+
+Es un componente propio.
+
+> import Modal from './Modal';
+
+Se usa:
+> <Modal />
+
+# const
+
+Una constante es una variable cuyo valor no puede ser reasignado después de crearse.
+
+>  const [cart, setCart] = useState([]);
+
+Cuando se llama a setCart() no se esta cambiando la constante, sino que se le esta dichiendo a react:
+"Guarda este nuevo valor como estado y vuelve a ejecutar el componente."
+
+# some()
+
+Se usa para comprobar si al menos un elemento de un array cumple una condición.
+
+
+
+### IMPORTANTE
+
+> const [cart, setCart] = useState([]);
+
+En los estados no se puede hacer:
+> cart.push(product);
+o
+> cart = nuevoArray;
+
+Siempre setCart(nuevoArray);
+
 
 
