@@ -14,6 +14,12 @@ Permite guardar datos que cambian.
 
 Permite ejecutar código cuando ocurre algo.
 
+## Ejemplos
+
+> useEffect(() => {
+> }, [algo]);
+Es como decir: cuando cambie "algo" -> "Ejecuta este código"
+
 # useCallBack
 
 Sirve para memorizar funciones
@@ -48,7 +54,21 @@ Cuando se llama a setCart() no se esta cambiando la constante, sino que se le es
 
 Se usa para comprobar si al menos un elemento de un array cumple una condición.
 
+# localStorage
+Solo guarda strings.
 
+# Map()
+
+Un Map es una estructura de datos que almacena pares clave -> valor, parecida a un objeto({}), pero con algunas ventajas.
+
+```
+map.set(clave, valor);   // Añadir o actualizar
+map.get(clave);          // Obtener valor
+map.has(clave);          // Comprobar si existe
+map.delete(clave);       // Eliminar
+map.clear();             // Vaciar todo
+
+```
 
 ### IMPORTANTE
 
@@ -56,10 +76,63 @@ Se usa para comprobar si al menos un elemento de un array cumple una condición.
 
 En los estados no se puede hacer:
 > cart.push(product);
+
 o
+
 > cart = nuevoArray;
 
 Siempre setCart(nuevoArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
