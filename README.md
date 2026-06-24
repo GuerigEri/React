@@ -24,7 +24,10 @@ Importa cosas de otros archivos o librerías.
 
 # useState
 
-Permite guardar datos que cambian.
+Permite guardar datos que cambian. De forma que el usuario puede ver como sus acciones en la web tienen cambios en tiempo real.
+
+## batching
+Buena practica: suponiendo que estoy ejecutando una lógica que hace un cambio de estado, si se ejecutan varios cambios de estado al mismo tiempo, se agrupan y se ejecutan al final. El cambio del render se hace cuando se ejecuta todo.
 
 # useEffect
 
