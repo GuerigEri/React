@@ -22,18 +22,20 @@ Importa cosas de otros archivos o librerías.
 
 > import React, { useEffect, useState, useCallback } from 'react';
 
-# useState
+#Hooks
+
+## useState
 
 Permite guardar datos que cambian. De forma que el usuario puede ver como sus acciones en la web tienen cambios en tiempo real.
 
-## batching
-Buena practica: suponiendo que estoy ejecutando una lógica que hace un cambio de estado, si se ejecutan varios cambios de estado al mismo tiempo, se agrupan y se ejecutan al final. El cambio del render se hace cuando se ejecuta todo.
+### batching
+Buena practica: suponiendo que estoy ejecutando una lógica que hace un cambio de estado, si se ejecutan varios cambios de estado al mismo tiempo, se agrupan y se ejecutan al final. Es decir, el cambio del render se hace cuando se ejecuta todo.
 
-# useEffect
+## useEffect
 
 Permite ejecutar código cuando ocurre algo.
 
-## Ejemplos
+### Ejemplos
 
 > useEffect(() => {
 > }, [algo]);
