@@ -41,7 +41,7 @@ Permite ejecutar código cuando ocurre algo.
 > }, [algo]);
 Es como decir: cuando cambie "algo" -> "Ejecuta este código"
 
-# useCallBack
+## useCallBack
 
 Sirve para memorizar funciones
 
@@ -75,6 +75,10 @@ Cuando se llama a setCart() no se esta cambiando la constante, sino que se le es
 
 Se usa para comprobar si al menos un elemento de un array cumple una condición.
 
+# AbortController()
+
+El AbortController es una api de js que sirve para cancelar operaciones asincronas, especialmente peticiones con fetch.
+
 # localStorage
 Solo guarda strings.
 
@@ -103,6 +107,10 @@ o
 > cart = nuevoArray;
 
 Siempre setCart(nuevoArray);
+
+---
+
+Se puede interrumpir un endpoint.
 
 
 
