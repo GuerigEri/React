@@ -45,6 +45,12 @@ Es como decir: cuando cambie "algo" -> "Ejecuta este código"
 
 Sirve para memorizar funciones
 
+# Renderizado condicional (&&)
+
+En react && se utiliza mucho para hacer renderizado condicional:
+Si la condición de la izquierda es true, se renderiza lo de la derecha.
+Si es false, no se renderiza nada.
+
 # Link 
 
 Sirve para navegar
@@ -112,7 +118,10 @@ Siempre setCart(nuevoArray);
 
 Se puede interrumpir un endpoint.
 
+---
+## return
 
+Solo puede tener un nodo padre, es decir no se pueden devolver varias etiquetas.
 
 
 
