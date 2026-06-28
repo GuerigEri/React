@@ -31,6 +31,22 @@ Permite guardar datos que cambian. De forma que el usuario puede ver como sus ac
 ### batching
 Buena practica: suponiendo que estoy ejecutando una lógica que hace un cambio de estado, si se ejecutan varios cambios de estado al mismo tiempo, se agrupan y se ejecutan al final. Es decir, el cambio del render se hace cuando se ejecuta todo.
 
+## useRef
+
+Se obtiene una referencia a un elemento concreto del DOM.
+
+---
+Diferencia entre useState y useRef
+
+useState: se usa cuando se necesita gestionar el estado de un componente que afecta a la interfaz de usuario y que necesita rerenderizar para reflejar esos cambios.
+
+useRef: se usa cuando no hace falta rerenderizar un componente.
+
+<img width="1038" height="489" alt="image" src="https://github.com/user-attachments/assets/8e6730e1-dd2c-44fa-84d1-b0640deaf84b" />
+
+
+---
+
 ## useEffect
 
 Permite ejecutar código cuando ocurre algo.
@@ -50,6 +66,9 @@ Sirve para memorizar funciones
 En react && se utiliza mucho para hacer renderizado condicional:
 Si la condición de la izquierda es true, se renderiza lo de la derecha.
 Si es false, no se renderiza nada.
+
+<img width="552" height="17" alt="image" src="https://github.com/user-attachments/assets/88ccb943-b7e1-46eb-81a3-5b79c01ff7f8" />
+
 
 # Link 
 
