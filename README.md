@@ -15,6 +15,16 @@ Si tenemos una bbdd también habría que subir la carpeta api.
 
 También hay que cambiar las rutas de las imagenes y quitar el /public a las que lo tengan.
 
+--- 
+
+# Props
+
+<img width="983" height="536" alt="image" src="https://github.com/user-attachments/assets/69e376b9-5082-4564-864d-8ce5315b78e3" />
+
+Pasamos datos de un componente padre a un hijo.
+
+<img width="554" height="473" alt="image" src="https://github.com/user-attachments/assets/6f4c8ab8-ee22-4d49-8d9a-205c71ca9dbb" />
+
 
 # Imports
 
